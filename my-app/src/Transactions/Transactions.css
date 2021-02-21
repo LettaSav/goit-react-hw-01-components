@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@400;700&display=swap');
+
+.trans_history {
+  background-color: #eee7db;
+  text-align: center;
+  border: 2px solid #a40808;
+}
+.trans_header,
+.trans_item {
+  border: 1px solid #aaaaaa;
+  padding: 3px 2px;
+}
+.trans_item:nth-child(even) {
+  background: #f5c8bf;
+}
+
+.trans_head {
+  background-color: #a40808;
+}
+.trans_header {
+  width: 150px;
+
+  font-family: 'Shippori Mincho', serif;
+  font-weight: 700;
+  font-size: 20px;
+}

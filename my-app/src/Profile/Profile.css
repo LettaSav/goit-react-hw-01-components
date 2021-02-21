@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand:400,500,700&subset=latin-ext');
+
+.profile {
+  width: 300px;
+  height: 450px;
+  display: block;
+
+  border-radius: 5px;
+  border-width: 3px;
+  border-color: #271829;
+  border-style: outset;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 30px;
+  margin: 50px;
+}
+.description {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.profile_name {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  color: #c144ff;
+}
+.profile_tag,
+.profile_location {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 700;
+  font-size: 15px;
+  color: #540c79;
+}
+.profile_name,
+.profile_tag,
+.profile_location {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+.profile_avatar {
+  width: 200px;
+  height: 250px;
+  border-radius: 50%;
+  display: block;
+
+  padding: 0;
+  margin: 0;
+}
+.profile_stats {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  padding: 0;
+}
+.profile_stats_item {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.profile_stats_item:not(:last-child) {
+  padding-right: 30px;
+}
+.label {
+  margin-bottom: 10px;
+
+  font-weight: 500;
+  margin-top: 7px;
+}
+.quantity {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 700;
+  font-size: 27px;
+}

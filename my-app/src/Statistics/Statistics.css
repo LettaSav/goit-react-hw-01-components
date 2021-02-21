@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,200;1,700&display=swap');
+
+.statis_section {
+  width: 400px;
+  text-align: center;
+  background: linear-gradient(45deg, #d5135a, #f05924);
+}
+.statis_title {
+  margin-top: 0;
+  margin-bottom: 15px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  color: rgb(255, 255, 255);
+}
+.statis_list {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+}
+.statis_wrapper {
+  width: 80px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  border-width: 2px;
+  border-style: solid;
+  border-color: rgb(255, 255, 255);
+}
+.statis_label {
+  padding-bottom: 10px;
+  font-weight: 200;
+}
+.statis_percent {
+  font-weight: 700;
+}
+.statis_label,
+.statis_percent {
+  font-family: 'Poppins', sans-serif;
+  color: rgb(255, 255, 255);
+}

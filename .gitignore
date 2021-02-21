@@ -6,3 +6,6 @@
 *.cmd
 my-app/node_modules
 
+*.map
+*.png
+my-app/build

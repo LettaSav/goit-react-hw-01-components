@@ -1,24 +1,24 @@
 import PropTypes from 'prop-types';
 import React from 'react';
-import './Statistics.css';
+import styles from './Statistics.module.css';
 
 const getBgColor = () =>
   `rgb(${Math.random() * 255}, ${Math.random() * 255}, ${Math.random() * 255})`;
 
 const Statistics = ({ title, stats }) => (
-  <section className="statis_section">
-    <h2 className="statis_title">{title}</h2>
-    <ul className="statis_list">
+  <section className={styles.statis_section}>
+    <h2 className={styles.statis_title}>{title}</h2>
+    <ul className={styles.statis_list}>
       {stats.map(stat => (
         <li
           key={stat.id}
-          className="statis_wrapper"
+          className={styles.statis_wrapper}
           style={{
             backgroundColor: getBgColor(),
           }}
         >
-          <span className="statis_label">{stat.label}</span>
-          <span className="statis_percent">{stat.percentage}%</span>
+          <span className={styles.statis_label}>{stat.label}</span>
+          <span className={styles.statis_percent}>{stat.percentage}%</span>
         </li>
       ))}
     </ul>
